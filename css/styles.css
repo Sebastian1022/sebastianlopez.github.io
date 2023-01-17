@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*menu*/
+.nav{
+    margin-top: 20px;
+}
+.logo img{
+    
+    width: 30%;
+    height: 30%;
+}
+.menu a{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: color 1s;
+}
+.menu a:hover{
+    color: rgb(10, 64, 240);
+}
+/*header*/
+.header{
+    text-align: center;
+}
+/*sección perfil*/
+.perfil{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.perfil h1{
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.perfil p{
+    
+    font-size: 16pt;
+    text-align: justify;
+}
+.imgperfil img{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+/*sección académico*/
+.titulo{
+    text-align: center;
+    margin-top: 25px;
+
+}
+.titulo h1{
+    font-weight: 800;
+    font-size: 24pt;
+}
+.galeria{
+    padding: 3rem;
+}
+.galeria h1{
+    font-weight: 800;
+    text-align: center;
+    padding: 2rem;
+}
+.galeria p{
+    text-align: center;
+    padding-bottom: 20px;
+ 
+}
+.imgac{
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#imgad{
+ 
+    padding-bottom: 10px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+.imgab{
+ 
+    display: block;
+    width: 60%;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.beh{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#vid{
+    display: block;
+    width: 640px;
+    height: 480px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100% ;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.caption{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.thumbnail:hover{
+    transform: translateY(-4px);
+}
+.img-container:hover .overlay{
+    opacity: 1;
+}*/
